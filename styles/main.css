@@ -1,0 +1,14 @@
+main{
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px white;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'extended';
+    src: url('../fonts/EurostileExtendedBlack.ttf');
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'extented', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: min(100% - 3rem, 137rem);
+    margin-inline: auto;
+}
+
