@@ -29,10 +29,21 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+  
   border-radius: 0 0 3rem 3rem;
+}
+
+.hero-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
 }
 
 h1 {
@@ -48,4 +59,16 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0%;
   line-height: 130%;
+}
+
+.btn-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+    transform: translateY(13px);
+}
+
+.second-section{
+    padding: 50px 0;
 }
