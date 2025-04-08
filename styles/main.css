@@ -1,14 +1,50 @@
-main{
-    background-image: url('../img/hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px white;
+  margin-top: 20px;
 }
 
-nav{
-    position: fixed;
-    width: 100%;
-    border-bottom: solid 1px white;
-    margin-top: 20px;
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  column-gap: 4rem;
+}
+
+.nav-item {
+  color: white;
+}
+
+main {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  max-width: 74.4rem;
+  color: white;
+  letter-spacing: 1%;
+  font-size: 3.9rem;
+  line-height: 130%;
+}
+
+h1 span {
+  font-size: 4.9rem;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 130%;
 }
