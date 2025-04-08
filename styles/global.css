@@ -1,36 +1,40 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'extended';
-    src: url('../fonts/EurostileExtendedBlack.ttf');
+  font-family: "Extended-bold";
+  src: url("../fonts/EurostileExtendedBlack.ttf");
 }
 
-html{
-    font-size: 62.5%;
+@font-face {
+    font-family: 'Extended-reg';
+    src: url('../fonts/Eurostile\ Extended\ Regular.ttf');
 }
 
-body{
-    font-family: 'extented', sans-serif;
-    font-size: 1.6rem;
+html {
+  font-size: 62.5%;
+  font-family: "Extended-reg", sans-serif;
 }
 
-ul li{
-    list-style: none;
+body {
+  font-size: 1.6rem;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+ul li {
+  list-style: none;
 }
 
-.container{
-    width: min(100% - 3rem, 137rem);
-    margin-inline: auto;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
+.container {
+  width: min(100% - 3rem, 137rem);
+  margin-inline: auto;
+}
