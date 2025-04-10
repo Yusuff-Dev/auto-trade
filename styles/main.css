@@ -69,6 +69,78 @@ h1 span {
     transform: translateY(13px);
 }
 
-.second-section{
-    padding: 50px 0;
+.services{
+    padding: 90px 0;
 }
+
+.services-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.gelik{
+  padding: 3rem;
+  background-image: url('../img/gelik.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  height: 64rem;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more-btn{
+  align-self: flex-end;
+  border: solid 1px #4f4f4f;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4);
+  padding: 2.35rem 4.4rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Extended-reg', sans-serif;
+  cursor: pointer;
+}
+
+.gelik + div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2.4rem;
+}
+
+.services-wrapper h3{
+  color: white;
+  letter-spacing: 12%;
+  line-height: 130%;
+  font-size: 2.4rem;
+}
+
+.autoparts{
+  background-image: url('../img/diska.png');
+}
+
+.service{
+  background-image: url('../img/bugatti.png');
+}
+
+.autoparts,
+.service{
+  flex-grow: 1;
+  border-radius: 10px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+

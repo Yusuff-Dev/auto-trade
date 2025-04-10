@@ -1,0 +1,19 @@
+@media only screen and (max-width: 66rem) {
+  .nav-links {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 40rem) {
+  .gelik,
+  .autoparts,
+  .service {
+    height: 36rem;
+  }
+
+  .services-wrapper h3{
+    font-size: 2rem;
+  }
+}
